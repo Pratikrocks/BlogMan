@@ -9,7 +9,7 @@ mongoose.Promise = global.Promise;
 
 const isProduction = process.env.NODE_ENV === "production";
 
-app.set("port", process.env.PORT || 3000);
+app.set("port", process.env.PORT || 8088);
 
 require("dotenv").config();
 
